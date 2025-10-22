@@ -1,4 +1,4 @@
-style = ~/.config/wofi/menu.css
+style = /home/avinas/.config/wofi/menu.css
 
 width=600
 height=500

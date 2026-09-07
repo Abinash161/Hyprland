@@ -1,10 +1,20 @@
-### To use this Hyprland Rice
+## To use this Hyprland/Niri Rice
 
+### Clone the git repo:
 ```sh
 git clone https://github.com/Abinash161/Hyprland.git &&
-cd Hyprland	&&
+```
+### For Hyprland Rice
+```sh
+cd dotfiles/Hyprland	&&
 cp -r .config/* ~/.config/
 hyprctl reload
+```
+### For Niri Rice
+```sh
+cd dotfiles/Niri	&&
+cp -r .config/* ~/.config/
+niri validate
 ```
 #### If you want to use cava config
 ```sh
@@ -59,6 +69,10 @@ cd cava-setup &&
 - `blueman`
 - `swayosd`
 - `copyq`
+- `swaylock`
+- `swayidle`
+- `poweralertd`
+- `swayosd`
   
   ---
 ### Overall looks
